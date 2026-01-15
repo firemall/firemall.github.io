@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /index.html
+Allow: /catalog.html
+Allow: /tov.html
+
+Disallow: /basket.html
+Disallow: /admin.html
+Disallow: /profile.html
+Disallow: /log.html
+Disallow: /reg.html
+Disallow: /error.html
+

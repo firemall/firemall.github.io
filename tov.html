@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJI Mavic 3 | SkyTech</title>
+    <meta name="robots" content="index, follow">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/tov.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/Logo.png" alt="" class="logo"> SkyTech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalog.html">Каталог</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="btn btn-outline-primary position-relative me-2">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <a href="log.html" class="btn btn-outline-primary me-2">
+                        <i class="bi bi-person"></i> Войти
+                    </a>
+                    <a href="basket.html" class="btn btn-primary position-relative">
+                        <i class="bi bi-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            2
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Хлебные крошки -->
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+                <li class="breadcrumb-item active" aria-current="page">DJI Mavic 3</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="product-container py-5">
+        <!-- Основная карточка товара -->
+        <div class="product-card p-3">
+            <!-- Контейнер для изображения (слева) -->
+            <div class="product-image-container">
+                <img src="./assets/img/mavic_3_main_6.640x640.jpg" alt="DJI Mavic 3" class="product-image">
+            </div>
+
+            <!-- Контейнер для информации о товаре (справа) -->
+            <div class="product-info">
+                <!-- Название товара -->
+                <h1 class="product-title">Квадрокоптер DJI Mavic 3</h1>
+
+                <!-- Рейтинг -->
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="text-muted ms-2">4.5 (128 отзывов)</span>
+                </div>
+
+                <!-- Цена -->
+                <div class="product-price">
+                    122 300 ₽
+                </div>
+                <!-- Характеристики -->
+                <div class="product-features">
+                    <div class="feature-item">
+                        <div>Камера: Hasselblad 20 МП, 4/3" CMOS</div>
+                    </div>
+                    <div class="feature-item">
+                        <div>Видео: 5.1K/50fps, 4K/120fps</div>
+                    </div>
+                    <div class="feature-item">
+                        <div>Время полета: до 46 минут</div>
+                    </div>
+                    <div class="feature-item">
+                        <div>Вес: 895 г</div>
+                    </div>
+                </div>
+                <!-- Кнопка добавления в корзину -->
+                <button class="btn btn-primary btn-add-to-cart">
+                    <i class="fas fa-shopping-cart me-2"></i>Добавить в корзину
+                </button>
+            </div>
+
+            <!-- Вкладки для описания, характеристик и отзывов -->
+            <div class="product-tabs">
+                <!-- Кнопки вкладок -->
+                <div class="tabs-header">
+                    <button class="tab-button active" data-tab="description">Описание</button>
+                    <button class="tab-button" data-tab="specifications">Характеристики</button>
+                    <button class="tab-button" data-tab="reviews">Отзывы</button>
+                </div>
+
+                <!-- Контент вкладок -->
+                <div class="tabs-content">
+                    <!-- Контент для вкладки "Описание" -->
+                    <div class="tab-content active" id="description-content">
+                        <!-- Сюда вставлять текст описания -->
+                        <p>DJI Mavic 3 - это флагманский дрон с камерой Hasselblad, обеспечивающей профессиональное
+                            качество
+                            съемки. Основная камера с 20 МП сенсором и 4/3" матрицей позволяет снимать видео в
+                            5.1K/50fps и
+                            делать потрясающие фотографии. Время полета увеличено до 46 минут благодаря новой батарее.
+                        </p>
+                    </div>
+
+                    <!-- Контент для вкладки "Характеристики" -->
+                    <div class="tab-content" id="specifications-content">
+
+                        <div class="feature-item">
+                            <div>Камера: Hasselblad 20 МП, 4/3" CMOS</div>
+                        </div>
+                        <div class="feature-item">
+                            <div>Видео: 5.1K/50fps, 4K/120fps</div>
+                        </div>
+                        <div class="feature-item">
+                            <div>Время полета: до 46 минут</div>
+                        </div>
+                        <div class="feature-item">
+                            <div>Вес: 895 г</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Контент для вкладки "Отзывы" -->
+                <div class="tab-content" id="reviews-content">
+                    <!-- Сюда вставлять отзывы пользователей -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">SkyTech</h5>
+                    <p>Интернет-магазин профессиональных и любительских БПЛА. Лучшие модели от ведущих производителей.
+                    </p>
+                    <div class="mt-3">
+                        <a href="#" class="social-icon"><i class="bi bi-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="mb-3">Магазин</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50">Главная</a></li>
+                        <li class="mb-2"><a href="catalog.html" class="text-white-50">Каталог</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Помощь</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50">Доставка и оплата</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50">Гарантия</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50">Возврат</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i> +7 (495) 123-45-67</li>
+                        <li class="mb-2"><i class="bi bi-envelope me-2"></i> info@skytech.ru</li>
+                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> Москва, ул. Дроновая, 15</li>
+                        <li class="mb-2"><i class="bi bi-clock me-2"></i> Пн-Пт: 9:00 - 20:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/tov.js"></script>
+</body>
+
+</html>

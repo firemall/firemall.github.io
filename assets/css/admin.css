@@ -1,0 +1,124 @@
+.admin-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.admin-header {
+    background-color: var(--admin-color);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.admin-body {
+    padding: 2rem;
+    background-color: white;
+}
+
+.admin-info-side {
+    border-right: 1px solid #eee;
+    padding-right: 2rem;
+}
+
+.admin-content-side {
+    padding-left: 2rem;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid var(--admin-color);
+}
+
+.admin-stats {
+    margin-top: 2rem;
+}
+
+.stat-item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--admin-color);
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.admin-section {
+    margin-bottom: 2rem;
+}
+
+.admin-section h5 {
+    margin-bottom: 1rem;
+    color: #495057;
+    font-weight: 600;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 1rem 1.25rem;
+    transition: all 0.3s;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.admin-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #eee;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .admin-info-side {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        padding-right: 0;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .admin-content-side {
+        padding-left: 0;
+    }
+
+    .admin-container {
+        padding: 1rem;
+    }
+
+    .admin-body {
+        padding: 1.5rem;
+    }
+}

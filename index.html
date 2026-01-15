@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyTech - Магазин БПЛА</title>
+    <meta name="yandex-verification" content="e10528f3a30a2055" />
+    <meta name="description" content="SkyTech - интернет-магазин профессиональных БПЛА и дронов. 
+    Купить квадрокоптер для аэросъемки, геодезии и мониторинга. Официальный дилер, гарантия, доставка по России.">
+    <meta name="robots" content="index, follow">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" target="_blank">
+                <img src="./assets/img/Logo.png" alt="" class="logo"> SkyTech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalog.html">Каталог</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="btn btn-outline-primary position-relative me-2">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <a href="log.html" class="btn btn-outline-primary me-2" target="_blank">
+                        <i class="bi bi-person"></i> Войти
+                    </a>
+                    <a href="basket.html" class="btn btn-primary position-relative">
+                        <i class="bi bi-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            2
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Слайдер -->
+    <div id="heroCarousel" class="carousel slide hero-slider mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+                <img src="./assets/img/БПЛА1.jpg" class="d-block w-100" alt="DJI Mavic 3 Pro">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h2>DJI Mini 3</h2>
+                    <h5>Новейшая профессиональная камера с тройной системой линз</h5>
+                    <a href="tov.html" class="btn btn-primary" target="_blank">Подробнее</a>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="./assets/img/БПЛА2.jpg" class="d-block w-100" alt="DJI Mavic 3 Pro">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h2>DJI Mini 3</h2>
+                    <h5>Новейшая профессиональная камера с тройной системой линз</h5>
+                    <a href="tov.html" class="btn btn-primary" target="_blank">Подробнее</a>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="./assets/img/БПЛА3.jpg" class="d-block w-100" alt="DJI Mavic 3 Pro">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h2>DJI Mini 3</h2>
+                    <h5>Новейшая профессиональная камера с тройной системой линз</h5>
+                    <a href="tov.html" class="btn btn-primary" target="_blank">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Популярные новинки -->
+    <section class="container mb-5">
+        <h2 class="section-title">Популярные новинки</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card product-card h-100">
+                    <img src="./assets/img/mavic_3_main_6.640x640.jpg" class="card-img-top product-img"
+                        alt="DJI Mini 3 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">DJI Mini 3</h5>
+                        <p class="card-text">Ультракомпактный дрон с продвинутой камерой</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="product-price">122 600₽</span>
+                            <a href="tov.html" class="btn btn-sm btn-outline-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card product-card h-100">
+                    <img src="./assets/img/mavic_3_main_6.640x640.jpg" class="card-img-top product-img"
+                        alt="DJI Mini 3 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">DJI Mini 3</h5>
+                        <p class="card-text">Ультракомпактный дрон с продвинутой камерой</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="product-price">122 600₽</span>
+                            <a href="tov.html" class="btn btn-sm btn-outline-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card product-card h-100">
+                    <img src="./assets/img/mavic_3_main_6.640x640.jpg" class="card-img-top product-img"
+                        alt="DJI Mini 3 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">DJI Mini 3</h5>
+                        <p class="card-text">Ультракомпактный дрон с продвинутой камерой</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="product-price">122 600₽</span>
+                            <a href="tov.html" class="btn btn-sm btn-outline-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card product-card h-100">
+                    <img src="./assets/img/mavic_3_main_6.640x640.jpg" class="card-img-top product-img"
+                        alt="DJI Mini 3 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">DJI Mini 3</h5>
+                        <p class="card-text">Ультракомпактный дрон с продвинутой камерой</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="product-price">122 600₽</span>
+                            <a href="tov.html" class="btn btn-sm btn-outline-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">SkyTech</h5>
+                    <p>Интернет-магазин профессиональных и любительских БПЛА. Лучшие модели от ведущих производителей.
+                    </p>
+                    <div class="mt-3">
+                        <a href="#" class="social-icon"><i class="bi bi-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="mb-3">Магазин</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50" target="_blank">Главная</a></li>
+                        <li class="mb-2"><a href="catalog.html" class="text-white-50" target="_blank">Каталог</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Помощь</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="error.html" class="text-white-50" target="_blank">Доставка и оплата</a></li>
+                        <li class="mb-2"><a href="error.html" class="text-white-50" target="_blank">Гарантия</a></li>
+                        <li class="mb-2"><a href="error.html" class="text-white-50" target="_blank">Возврат</a></li>
+                        <li class="mb-2"><a href="error.html" class="text-white-50" target="_blank">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i> +7 (495) 123-45-67</li>
+                        <li class="mb-2"><i class="bi bi-envelope me-2"></i> info@skytech.ru</li>
+                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> Москва, ул. Дроновая, 15</li>
+                        <li class="mb-2"><i class="bi bi-clock me-2"></i> Пн-Пт: 9:00 - 20:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
